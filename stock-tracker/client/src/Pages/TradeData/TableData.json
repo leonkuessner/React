@@ -1,0 +1,32 @@
+{
+  "currentPositions": [
+    {
+      "ticker": "Tesla",
+      "date": "234",
+      "cost": "Tesla",
+      "value": "Tesla",
+      "balance": "Tesla"
+    },
+    {
+      "ticker": "NGA",
+      "date": "Tes76la",
+      "cost": "Tesla",
+      "value": "Tes465la",
+      "balance": "Tesl345a"
+    },
+    {
+      "ticker": "Tesla",
+      "date": "Tes435la",
+      "cost": "Tesdfgla",
+      "value": "Tesl34534a",
+      "balance": "Te2sla"
+    },
+    {
+      "ticker": "Boeing",
+      "date": "Tes3la",
+      "cost": "Te576sla",
+      "value": "Tes456la",
+      "balance": "Tes345la"
+    }
+  ]
+}

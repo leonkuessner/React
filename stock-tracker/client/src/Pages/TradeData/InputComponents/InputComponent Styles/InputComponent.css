@@ -1,0 +1,54 @@
+.input__container {
+  height: 90px;
+}
+
+.input__main-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70px 140px 100px 100px 70px;
+      grid-template-columns: 70px 140px 100px 100px 70px;
+  width: 475px;
+  padding-right: 70px;
+}
+
+.input__form {
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70px 140px 100px 100px 70px 70px;
+      grid-template-columns: 70px 140px 100px 100px 70px 70px;
+}
+
+.input__form .input__item {
+  text-align: center;
+}
+
+.input__form input,
+.input__form select {
+  width: 84px;
+  height: 15px;
+  padding: 7.5px;
+  border-radius: 0;
+  outline: none;
+  border: 1px solid gray;
+  border-right: none;
+}
+
+.input__form select {
+  width: 70px;
+  height: 32px;
+}
+
+.input__form .input__date-input {
+  width: 124px;
+}
+
+.input__form .input__currency-option {
+  border-right: 1px solid gray;
+}
+
+.input__form button {
+  margin: 2px 4px;
+  height: 28px;
+}
+/*# sourceMappingURL=InputComponent.css.map */

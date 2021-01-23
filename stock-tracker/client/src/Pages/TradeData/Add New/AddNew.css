@@ -1,0 +1,12 @@
+.addNew__label {
+  width: 550px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(170, 236, 236);
+  height: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

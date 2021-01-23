@@ -1,0 +1,31 @@
+.table {
+  width: 80%;
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+.light td,
+.light th {
+  border: 1px solid var(--tertiayWhite);
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+.dark td,
+.dark th {
+  border: 1px solid var(--tertiayWhite);
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+.dark tr:nth-child(even) {
+  background-color: var(--secondaryBlack);
+}
+.dark tr:nth-child(odd) {
+  background-color: var(--primaryBlack);
+}
+.light tr:nth-child(even) {
+  background-color: var(--secondaryWhite);
+}

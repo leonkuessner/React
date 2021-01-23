@@ -1,0 +1,12 @@
+.historicTrades {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.historicTrades__title {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(170, 236, 236);
+}

@@ -1,0 +1,85 @@
+.input__container {
+  height: 90px;
+}
+
+.input__main-header {
+  display: grid;
+  grid-template-columns: 70px 140px 100px 100px 70px;
+  width: 475px;
+  padding-right: 70px;
+}
+
+.input__form {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 70px 140px 100px 100px 70px 70px;
+  // grid-template-areas: "input input input input input button";
+
+  & .input__item {
+    text-align: center;
+  }
+  & input,
+  select {
+    width: 84px;
+    height: 15px;
+    padding: 7.5px;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid gray;
+    border-right: none;
+  }
+  & select {
+    width: 70px;
+    height: 32px;
+  }
+  & .input__date-input {
+    width: 124px;
+  }
+
+  .input__currency-option {
+    border-right: 1px solid gray;
+  }
+  & button {
+    margin: 2px 4px;
+    height: 28px;
+  }
+}
+// .input__form {
+//   height: 50px;
+//   display: flex;
+//   justify-content: space-around;
+//   // display: grid;
+//   // grid-template-columns: 70px 140px 100px 100px 70px 70px;
+//   // grid-template-areas: "input input input input input button";
+
+//   & .input__item {
+//     text-align: center;
+//   }
+//   & input,
+//   select {
+//     grid-area: input;
+//     width: 84px;
+//     height: 15px;
+//     padding: 7.5px;
+//     border-radius: 0;
+//     outline: none;
+//     border: 1px solid gray;
+//     border-right: none;
+//   }
+//   & select {
+//     width: 70px;
+//     height: 32px;
+//   }
+//   & .input__date-input {
+//     width: 124px;
+//   }
+
+//   .input__currency-option {
+//     border-right: 1px solid gray;
+//   }
+//   & button {
+//     grid-area: button;
+//     margin: 2px 4px;
+//     height: 28px;
+//   }
+// }
